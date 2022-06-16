@@ -16,8 +16,5 @@ public class tut37 {
         b = temp;
         // swapped
         System.out.println(a + " " + b);
-        a += 5;
-        b += 10;
-        System.out.println(a + " " + b);
     }
 }

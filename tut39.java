@@ -1,10 +1,10 @@
 // Constructors
 
 class vehicleV1 {
-    int wheels;
+    int wheels = 4;
 
     vehicleV1() { // No Argument Constructor
-        wheels = 4;
+        System.out.println("*** This is a vehicleV1 constructor ***");
     }
 }
 
@@ -37,10 +37,6 @@ class vehicleV3 {
 }
 
 public class tut39 {
-    tut39() { // No Argument Constructor
-        System.out.println("This is example of a constructor.");
-    }
-
     public static void main(String[] args) {
         // tut39 obj = new tut39(); // this will print the tut39 constructor print line
 
@@ -50,8 +46,11 @@ public class tut39 {
         vehicleV2 bike = new vehicleV2(2);
         System.out.println(bike.wheels + " wheels and " + bike.headlights + " headlights of bike.");
 
-        vehicleV3 bus = new vehicleV3(6, "Red"); // if the color is not provided it setted to be null by the first
-                                                 // constructor of vehicle3 class which have only single argument
+        vehicleV3 bus = new vehicleV3(6, "Red");
+        // if the color is not provided it setted to be null by the first
+        // String s=String.valueOf(i); constructor of vehicle3 class which have
+        // only single argument
+
         System.out
                 .println(bus.wheels + " wheels, " + bus.color + " color and " + bus.headlights + " headlights of bus.");
     }

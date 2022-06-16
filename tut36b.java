@@ -1,4 +1,4 @@
-// Function Overriding
+// Method Overriding
 
 class A {
     public void meth2() {

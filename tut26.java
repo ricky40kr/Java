@@ -14,9 +14,10 @@ public class tut26 {
 
         while (temp > 0) {
             int lastDigit = temp % 10;
-            rev_n += rev_n * 10 + lastDigit;
+            rev_n = rev_n * 10 + lastDigit;
             temp /= 10;
         }
+
         if (rev_n == n) {
             System.out.println(n + " is a Palindrome number.");
         } else {

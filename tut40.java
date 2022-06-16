@@ -8,5 +8,6 @@ public class tut40 {
         obj.setAge(12);
         System.out.println(obj.getAge());
         obj.setName("Monty");
+        System.out.println(obj.getName());
     }
 }

@@ -13,7 +13,7 @@ public class tut32 {
 
         for (int i = 0; i < n - 1; i++) {
             int midInd = i;
-            for (int j = i; j < n; j++) {
+            for (int j = i + 1; j < n; j++) {
                 if (a[j] < a[midInd]) { // change the sign to > to get reverse order
                     midInd = j;
                 }

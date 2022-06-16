@@ -1,4 +1,4 @@
-// Arithematic operators
+// Arithmetic operators
 
 public class tut6 {
     public static void main(String[] args) {
